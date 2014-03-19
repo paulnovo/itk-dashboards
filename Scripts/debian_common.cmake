@@ -12,6 +12,7 @@
 set(CTEST_BUILD_CONFIGURATION Release)
 set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
 set(dashboard_root_name "MyTests")
+set(dashboard_git_url "http://itk.org/ITK.git")
 
 # 2011-09-01: Disable System TIFF, since ITK now requires TIFF 4.0
 # (http://www.itk.org/mailman/private/insight-developers/2011-August/020078.html)
